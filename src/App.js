@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import Button from './components/Button/component/Button';
+// import Button from 'components/Button/component/Button';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Button />
+          {/* <Button /> */}
         </a>
       </header>
     </div>

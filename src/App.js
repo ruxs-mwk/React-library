@@ -1,8 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Switch, Route } from 'react-router';
 
-// import Button from 'components/Button/component/Button';
+import Button from './components/Button/component/Button';
+import RoutingSample from './components/Button/component/RoutingSample';
 
 function App() {
   return (
@@ -18,7 +20,13 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {/* <Button /> */}
+          <Switch>
+            <Route
+              path="/sample"
+              component= { RoutingSample }
+            />
+          </Switch>
+          <Button />
         </a>
       </header>
     </div>
